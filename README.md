@@ -5,7 +5,7 @@ through the use of Ollama. This allows you to narrow your search down to specifi
 
 PROBLEMS(ordered by importance)
 1. Spotify subscription ran out. This means that some parts of the code are dependent on that. It still runs the cosine similarity on the songs, but it has to be
-   queried correctly. Theoretically, it could be run without having to query Spotify's API at all. Just haven't got that far yet
+   queried correctly. Theoretically, it could be run without having to query Spotify's API at all. Just haven't got that far yet. Also discontinued both API keys for    security reasons. 
 2. Speed. This algorithm, with it's avoiding being rate limited, is very slow without the use of Ollama in the first place. Since Ollama has to tag every new song,
    it can really bog down the system. This is a hardware restriction, so it could be run on a cloud server that has better hardware than my laptop
 3.Selection is spotty. Before getting to a "completed" point in the project, I was still using a API that was not fully complete. Spotify shut down there audio
